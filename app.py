@@ -32,7 +32,7 @@ def hello():
 def procuct():
     all_todo = Todo.query.all()
     print(all_todo)
-    return "This is product page"
+    return "This is product page1 "
 
 
 @app.route("/update/<int:sno>", methods=["GET", "POST"])
